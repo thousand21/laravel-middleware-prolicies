@@ -26,11 +26,11 @@
        <span class="tooltip">User</span>
      </li>
      <li>
-       <a href="#">
+       <a href="{{route('testimonials.index')}}">
          <i class='bx bx-chat' ></i>
-         <span class="links_name">Messages</span>
+         <span class="links_name">Testimonial</span>
        </a>
-       <span class="tooltip">Messages</span>
+       <span class="tooltip">Testimonial</span>
      </li>
      <li>
        <a href="#">
@@ -91,9 +91,7 @@
      </li>
     </ul>
   </div>
-  <section class="home-section">
-      <div class="text">Dashboard</div>
-  </section>
+  
 
 
   <script>

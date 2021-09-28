@@ -14,12 +14,16 @@
 <body>
     
     @include('backoffice.partials.nav')
+    <section class="home-section">
+    <div class="text">
+        @yield('back')
+    </div>
+</section>
+    
 
-    @yield('back')
 
 
-
-    <script src="{{asset('js/app.js')}}"></script>
+    
     <script src="{{asset('js/tailwind.js')}}"></script>
 </body>
 </html>
